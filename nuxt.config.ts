@@ -2,12 +2,12 @@
 export default defineNuxtConfig({
   modules: [
     // ...
-    "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/eslint-module",
+    "@vueuse/nuxt",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "nuxt-headlessui",
-    "@nuxtjs/eslint-module",
     "nuxt-lodash",
     "nuxt-icon",
     "nuxt-icons",
