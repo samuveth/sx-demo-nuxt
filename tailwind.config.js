@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
-import tailwindTypography from "@tailwindcss/typography";
-import tailwindForms from "@tailwindcss/forms";
+import tailwindTypography from '@tailwindcss/typography'
+import tailwindForms from '@tailwindcss/forms'
 
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [tailwindTypography, tailwindForms],
-};
+  plugins: [tailwindTypography, tailwindForms]
+}

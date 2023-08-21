@@ -2,23 +2,23 @@
 export default defineNuxtConfig({
   modules: [
     // ...
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/eslint-module",
-    "@vueuse/nuxt",
-    "@pinia/nuxt",
-    "@pinia-plugin-persistedstate/nuxt",
-    "nuxt-headlessui",
-    "nuxt-lodash",
-    "nuxt-icon",
-    "nuxt-icons",
-    "nuxt-og-image",
-    "nuxt-graphql-client",
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
+    'nuxt-headlessui',
+    'nuxt-lodash',
+    'nuxt-icon',
+    'nuxt-icons',
+    'nuxt-og-image',
+    'nuxt-graphql-client'
   ],
 
   runtimeConfig: {
     public: {
-      GQL_HOST: "https://hub.snapshot.org/graphql",
-    },
+      GQL_HOST: 'https://hub.snapshot.org/graphql'
+    }
   },
-  devtools: { enabled: true },
-});
+  devtools: { enabled: true }
+})
