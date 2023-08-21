@@ -1,0 +1,40 @@
+query proposal($id: String!) {
+  proposal(id: $id) {
+    id
+    ipfs
+    title
+    body
+    discussion
+    choices
+    start
+    end
+    snapshot
+    state
+    author
+    created
+    plugins
+    network
+    type
+    quorum
+    symbol
+    privacy
+    validation {
+      name
+      params
+    }
+    strategies {
+      name
+      network
+      params
+    }
+    space {
+      id
+      name
+    }
+    scores_state
+    scores
+    scores_by_strategy
+    scores_total
+    votes
+  }
+}
