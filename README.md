@@ -39,3 +39,12 @@ yarn preview
 - `nuxt-og-image` - Generate social media images https://nuxt.com/modules/og-image
 - `nuxt-graphql-client` - GraphQL client with type generation https://nuxt.com/modules/graphql-client
 - `@nuxt/devtools` - Nuxt devtools https://nuxt.com/modules/devtools
+
+## Recommended VSCode Extensions
+
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Volar Typescript Extension](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify)

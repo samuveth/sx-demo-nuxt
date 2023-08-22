@@ -8,6 +8,11 @@
     </div>
 
     <div class="flex gap-1">
+      Iconify icon:
+      <Icon name="uil:github" />
+    </div>
+
+    <div class="flex gap-1">
       Custom icon from /assets/icons/github.svg:
       <NuxtIcon
         name="github"
