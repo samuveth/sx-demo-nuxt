@@ -20,5 +20,9 @@ export default defineNuxtConfig({
       GQL_HOST: 'https://hub.snapshot.org/graphql'
     }
   },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.scss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/main.scss'
+  }
 })
