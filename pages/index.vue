@@ -1,9 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    Welcome to Nuxt!
+  <div class="space-y-6">
+    <div>
+      Pinia store counter:
+      <ButtonCount />
+    </div>
 
-    <NuxtIcon name="github" />
+    <div class="flex gap-1">
+      Custom icon from /assets/icons/github.svg:
+      <NuxtIcon
+        name="github"
+        class="text-2xl"
+      />
+    </div>
   </div>
 </template>

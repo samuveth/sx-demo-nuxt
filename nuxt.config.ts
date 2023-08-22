@@ -5,7 +5,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
     '@vueuse/nuxt',
-    '@pinia/nuxt',
+    [
+      '@pinia/nuxt',
+      {
+        autoImports: ['defineStore', 'acceptHMRUpdate']
+      }
+    ],
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-headlessui',
     'nuxt-lodash',
@@ -24,5 +29,11 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.scss'],
   tailwindcss: {
     cssPath: '~/assets/css/main.scss'
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
+  imports: {
+    dirs: ['stores']
   }
 })
