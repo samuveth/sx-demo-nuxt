@@ -43,7 +43,6 @@ yarn preview
 ## Recommended VSCode Extensions
 
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-- [Volar Typescript Extension](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
