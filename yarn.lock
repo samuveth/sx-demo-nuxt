@@ -2156,6 +2156,13 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
+"@snapshot-labs/eslint-config-nuxt@^0.1.0-beta.12":
+  version "0.1.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@snapshot-labs/eslint-config-nuxt/-/eslint-config-nuxt-0.1.0-beta.12.tgz#856a0a6efc7618381cb397183f88a9481b008981"
+  integrity sha512-eYNdHdJLkmNR3FQkeHz/3KBUKMddrKgycKd+FjXrz8J6CUYCrYDav4gGetMxVGmbxcVudnz/nirZo2KwBEvS7A==
+  dependencies:
+    "@nuxt/eslint-config" "^0.1.1"
+
 "@tailwindcss/forms@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.4.tgz#5316a782fd95369eb5b6fd01d46323b3dce656a2"
