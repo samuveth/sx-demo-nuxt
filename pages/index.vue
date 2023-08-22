@@ -2,6 +2,8 @@
 
 <template>
   <div>
-    <NuxtPage />
+    Welcome to Nuxt!
+
+    <NuxtIcon name="github" />
   </div>
 </template>
