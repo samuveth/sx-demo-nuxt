@@ -55,6 +55,10 @@ module.exports = {
     },
     fontFamily: {
       serif: ['"Calibre", Helvetica, Arial, sans-serif']
+    },
+    fontWeight: {
+      medium: 500,
+      semibold: 600
     }
   },
   plugins: [tailwindTypography, tailwindForms]
