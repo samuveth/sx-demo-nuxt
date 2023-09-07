@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light;
+
+  // backgrounds
+  --bg: 255, 255, 255;
+  --block-bg: 255, 255, 255;
+  --input-bg: 251, 251, 251;
+  --hover-bg: 247, 247, 247;
+  --active-bg: 237, 237, 237;
+  --border: 229, 229, 230;
+
+  // main
+  --heading: 17, 17, 17;
+  --link: 17, 17, 17;
+  --text: 87, 96, 106;
+
+  --content: rgba(17, 17, 17, 0.8);
+
+  // accents
+  --primary: 17, 17, 17;
+  --accent-foreground: 251, 251, 251;
+  --danger: 235, 76, 91;
+  --positive: 87, 179, 117;
+
+  --accent-hover: rgba(250, 249, 252, 0.12);
+  --accent-active: rgba(250, 249, 252, 0.32);
+  --danger-border: rgba(235, 76, 91, 0.4);
+  --danger-hover: rgba(235, 76, 91, 0.04);
+  --danger-active: rgba(235, 76, 91, 0.12);
+  --positive-border: rgba(87, 179, 117, 0.4);
+  --positive-hover: rgba(87, 179, 117, 0.04);
+  --positive-active: rgba(87, 179, 117, 0.12);
+}
+
+.dark {
+  color-scheme: dark;
+
+  // backgrounds
+  --bg: 28, 27, 32;
+  --block-bg: 28, 27, 32;
+  --input-bg: 35, 34, 39;
+  --hover-bg: 37, 36, 41;
+  --active-bg: 41, 40, 46;
+  --border: 51, 50, 55;
+
+  // main
+  --heading: 251, 251, 251;
+  --link: 251, 251, 251;
+  --text: 160, 159, 164;
+
+  --content: rgba(250, 249, 252, 0.8);
+
+  // accents
+  --primary: 251, 251, 251;
+  --accent-foreground: 17, 17, 17;
+  --danger: 235, 76, 91;
+  --positive: 87, 179, 117;
+
+  --accent-hover: rgba(28, 27, 32, 0.12);
+  --accent-active: rgba(28, 27, 32, 0.32);
+  --danger-border: rgba(235, 76, 91, 0.4);
+  --danger-hover: rgba(235, 76, 91, 0.04);
+  --danger-active: rgba(235, 76, 91, 0.12);
+  --positive-border: rgba(87, 179, 117, 0.4);
+  --positive-hover: rgba(87, 179, 117, 0.04);
+  --positive-active: rgba(87, 179, 117, 0.12);
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Calibre';
+    src: url('./assets/fonts/Calibre-Medium-Custom.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Calibre';
+    src: url('./assets/fonts/Calibre-Semibold-Custom.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+* {
+  @apply border-border-color font-serif;
+}

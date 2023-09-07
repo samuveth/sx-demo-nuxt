@@ -1,12 +1,18 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div class="px-5 py-3">
-    <NuxtLink to="/"> Home </NuxtLink>
-    <NuxtLink to="/about"> About </NuxtLink>
+  <div
+    class="font-serif text-base min-h-screen bg-skin-bg text-skin-text antialiased"
+  >
+    <div class="pb-6 flex">
+      <TheSidebar />
+      <TheTopnav />
 
-    <h1 class="text-xl mt-3">Nuxt template demo</h1>
-
-    <div class="mt-6">
-      <slot />
+      <div class="flex-auto w-full">
+        <div class="flex-auto mt-[72px] ml-0 lg:ml-[72px]">
+          <slot />
+        </div>
+      </div>
     </div>
   </div>
 </template>
