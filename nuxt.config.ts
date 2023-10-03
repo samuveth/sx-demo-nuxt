@@ -1,5 +1,8 @@
+const target = ['esnext']
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   modules: [
     // ...
     '@nuxtjs/tailwindcss',
@@ -35,5 +38,17 @@ export default defineNuxtConfig({
   },
   imports: {
     dirs: ['stores']
+  },
+  nitro: {
+    esbuild: {
+      options: {
+        target: target
+      }
+    }
+  },
+  vite: {
+    define: {
+      global: 'window'
+    }
   }
 })
